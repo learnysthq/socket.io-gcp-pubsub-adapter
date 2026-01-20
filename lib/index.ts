@@ -72,6 +72,7 @@ export function createAdapter(topic: Topic, opts: AdapterOptions = {}) {
         "an error has occurred while creating the subscription: %s",
         err.message
       );
+      throw err; // ✅ FAIL FAST //Sridhar
     });
 
   return function (nsp: any) {
