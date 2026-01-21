@@ -1,5 +1,5 @@
 {
-  "name": "@learnyst/gcp-pubsub-adapter",
+  "name": "@sridhardvvce/gcp-pubsub-adapter",
   "version": "0.1.0",
   "description": "The Socket.IO adapter for Google Cloud pub/sub, allowing to broadcast events between several Socket.IO servers",
   "license": "MIT",
